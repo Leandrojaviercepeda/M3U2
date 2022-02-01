@@ -1,0 +1,82 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: black;
+    background-image: linear-gradient(-225deg, black 0%, #3584A7 51%, #30D2BE 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header-init */
+header .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25em;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav h1 {
+    top: 0;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+nav h2 {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-style {
+    text-decoration: none;
+    border-radius: 5px;
+    clear: both;
+    color: black;
+    padding: 0.5em 0.5em;
+}
+
+.nav-style:hover {
+    color: white;
+    background-color: black;
+}
+/* Header-finish */
+
+/* Main init */
+.circle-icon {
+    font-size: 3em;
+    color: white;
+    background: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.center {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+/* Main finish */
