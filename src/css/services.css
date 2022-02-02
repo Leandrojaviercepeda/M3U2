@@ -32,6 +32,7 @@ nav h1 {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+
     background: black;
     color: white;
     font-size: 2em;
@@ -70,10 +71,31 @@ main h6 {
     margin: 0;
 }
 
-.full-height-center {
+
+/* Main init */
+.circle-icon {
+    font-size: 3em;
+    color: white;
+    background: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 65vh;
+    align-self: center;
+}
+
+.center {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+div .card:hover {
+    color: white;
+    background-color: #3584A7 !important;
 }
 /* Main finish */

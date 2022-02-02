@@ -79,4 +79,13 @@ nav h2 {
     align-self: center;
     justify-self: center;
 }
+
+div .card:hover {
+    color: white;
+    background-color: #3584A7 !important;
+}
+
+.card img {
+    background-color: white !important;
+}
 /* Main finish */
